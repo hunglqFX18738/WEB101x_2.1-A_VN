@@ -1,0 +1,209 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+}
+
+.section {
+  margin: 40px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: #000 solid 2px;
+  padding-bottom: 3px;
+}
+
+.section-content {
+  padding: 5px 0;
+  border-bottom: rgb(239, 233, 233) solid 1px;
+  line-height: 1.5;
+}
+
+/*XÓA BORDER-BOTTOM TRONG CÁC CONTENT*/
+#target .section-content {
+  border-bottom: none;
+}
+
+#hobby .section-content {
+  border-bottom: none;
+}
+
+#project .section-content {
+  border-bottom: none;
+}
+
+#contact .section-content {
+  border-bottom: none;
+}
+
+/* ĐIỀU CHỈNH CONTENT */
+.section-content-left {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  float: left;
+}
+
+.section-content-right {
+  display: inline-block;
+  width: 70%;
+}
+
+#certificate .section-content-right {
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* DANH SÁCH */
+#project ul {
+  padding: 10px 0 0 20px;
+  margin: 0;
+}
+
+#hobby ul {
+  padding: 10px 0 0 20px;
+  margin: 0;
+}
+
+ol {
+  padding: 0 20px;
+  margin: 0;
+}
+
+/* PROJECT */
+#project h2 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+#project .section-content {
+  padding: 0;
+}
+
+/* INFO */
+#info {
+  position: relative;
+}
+h1 {
+  color: #0e2452;
+}
+
+.info-name p {
+  font-weight: bold;
+}
+
+.info-name {
+  display: inline-block;
+}
+
+.info-details {
+  margin-left: 50px;
+  display: inline-block;
+}
+
+.info-image {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* BỔ SUNG THANH THỜI GIAN*/
+/* EDUCATION */
+#education ul {
+  list-style-type: none;
+  padding: 10px 0 0 20px;
+  margin: 0;
+}
+
+#education li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 2px;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+#education li:before {
+  background-color: black;
+  width: 0.5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -15px;
+}
+
+#education li:after {
+  content: "• ";
+  color: black;
+  font-size: 30px;
+  top: 0;
+  left: -20px;
+  position: absolute;
+}
+
+/* EXPERIENCE */
+#experience ul {
+  list-style-type: none;
+  padding: 10px 0 0 20px;
+  margin: 0;
+}
+
+#experience li {
+  position: relative;
+  margin: 0;
+  padding-bottom: 2px;
+  padding-left: 0;
+  padding-top: 0;
+}
+
+#experience li:before {
+  background-color: black;
+  width: 0.5px;
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -15px;
+}
+
+#experience li:after {
+  content: "• ";
+  color: black;
+  font-size: 30px;
+  top: 0;
+  left: -20px;
+  position: absolute;
+}
